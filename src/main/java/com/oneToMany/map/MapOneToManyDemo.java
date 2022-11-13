@@ -45,9 +45,9 @@ public class MapOneToManyDemo {
 		tx.commit();
 
 //		fetching
-		Question que = (Question) session.get(Question.class, 242);
-		System.out.println(que.getQuestion());
-		System.out.println(que.getAnswer().getAnswer());
+//		Question que = (Question) session.get(Question.class, 242);
+//		System.out.println(que.getQuestion());
+//		System.out.println(que.getAnswer().getAnswer());
 
 		session.close();
 		sessionFactory.close();
